@@ -104,31 +104,31 @@
 //    nota maior ou igual a 7 - "aprovado"
 //    nota menor que 7 - "reprovado"
 
-let notas = [8, 6, 9, 5, 7, 4, 10, 6];
+// let notas = [8, 6, 9, 5, 7, 4, 10, 6];
 
-for (let numero = 0; numero < notas.length; numero++) {
-   if (notas[numero] >= 7) {
-    console.log(notas[numero] + "-> aprovado");  
-   } else {
-    console.log(notas[numero] + "-> reprovado");
-   }     
-}
+// for (let numero = 0; numero < notas.length; numero++) {
+//    if (notas[numero] >= 7) {
+//     console.log(notas[numero] + "-> aprovado");  
+//    } else {
+//     console.log(notas[numero] + "-> reprovado");
+//    }     
+// }
 
-// exercicio 02 - temperaturas.
-// crie um array contendo 7 temporaturas.
-// percorra o array e classifique cada temperaturas;
-//    maior que 30 - "quente"
-//    entre 20 e 30 - "agradavel"
-//    menor que 20 - "frio"
+// // exercicio 02 - temperaturas.
+// // crie um array contendo 7 temporaturas.
+// // percorra o array e classifique cada temperaturas;
+// //    maior que 30 - "quente"
+// //    entre 20 e 30 - "agradavel"
+// //    menor que 20 - "frio"
 
-let temperaturas = [32, 25, 18, 30, 35, 22, 15];
+// let temperaturas = [32, 25, 18, 30, 35, 22, 15];
 
-for (let numero = 0; numero < temperaturas.length; numero++) {
-   if (temperaturas[numero] > 30) {
-    console.log(temperaturas[numero] + "-> quente");  
-   } else if (temperaturas[numero] >= 20 && temperaturas[numero] <= 30) {
-    console.log(temperaturas[numero] + "-> agradavel");
-   } else {
-    console.log(temperaturas[numero] + "-> frio");
-   }     
-}
+// for (let numero = 0; numero < temperaturas.length; numero++) {
+//    if (temperaturas[numero] > 30) {
+//     console.log(temperaturas[numero] + "-> quente");  
+//    } else if (temperaturas[numero] >= 20 && temperaturas[numero] <= 30) {
+//     console.log(temperaturas[numero] + "-> agradavel");
+//    } else {
+//     console.log(temperaturas[numero] + "-> frio");
+//    }     
+// }
